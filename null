@@ -1,0 +1,30 @@
+170102 18:46:34 [Note] mysqld (mysqld 10.0.28-MariaDB-1~jessie) starting as process 105 ...
+170102 18:46:34 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170102 18:46:34 [Note] InnoDB: The InnoDB memory heap is disabled
+170102 18:46:34 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170102 18:46:34 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+170102 18:46:34 [Note] InnoDB: Compressed tables use zlib 1.2.8
+170102 18:46:34 [Note] InnoDB: Using Linux native AIO
+170102 18:46:34 [Note] InnoDB: Using CPU crc32 instructions
+170102 18:46:34 [Note] InnoDB: Initializing buffer pool, size = 256.0M
+170102 18:46:34 [Note] InnoDB: Completed initialization of buffer pool
+170102 18:46:34 [Note] InnoDB: Highest supported file format is Barracuda.
+170102 18:46:34 [Note] InnoDB: The log sequence numbers 1623639 and 1623639 in ibdata files do not match the log sequence number 297167006 in the ib_logfiles!
+170102 18:46:34 [Note] InnoDB: Database was not shutdown normally!
+170102 18:46:34 [Note] InnoDB: Starting crash recovery.
+170102 18:46:34 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170102 18:46:34 [Note] InnoDB: Restoring possible half-written data pages 
+170102 18:46:34 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 67372910, file name /var/log/mysql/mariadb-bin.000005
+170102 18:46:34 [Note] InnoDB: 128 rollback segment(s) are active.
+170102 18:46:34 [Note] InnoDB: Waiting for purge to start
+170102 18:46:34 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 297167006
+170102 18:46:34 [Note] Plugin 'FEEDBACK' is disabled.
+170102 18:46:34 [Note] Recovering after a crash using /var/log/mysql/mariadb-bin
+170102 18:46:34 [Note] Starting crash recovery...
+170102 18:46:34 [Note] Crash recovery finished.
+170102 18:46:34 [Note] Server socket created on IP: '127.0.0.1'.
+170102 18:46:34 [Note] Reading of all Master_info entries succeded
+170102 18:46:34 [Note] Added new Master_info '' to hash table
+170102 18:46:34 [Note] mysqld: ready for connections.
+Version: '10.0.28-MariaDB-1~jessie'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
